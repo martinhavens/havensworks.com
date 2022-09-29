@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <meta charset="utf-8">
+        <title>Get Popped</title>
+        <link href = "hello.css" type=text/css rel="stylesheet"></link>
+    </head>
+    <body>
+        <p id="hello">Hello</p>
+        <script type="text/javascript"> var answer = confirm("Do you want to say hello?");
+        if (answer == true) { document.getElementById("hello").innerHTML="Hello, world"; }</script>
+        Top line changes based on user prompt selection.
+        <div class="glass color reddit">Classes: glass, color, and reddit - in quotes, separated by spaces</div>
+        <div class="glass"><div class="color"><div class="reddit">Classes nested hi-> low: glass -> color -> reddit</div></div></div>
+        <div class="q"><div class="w"><div class="e">Classes nested hi-> low: q -> w -> e</div></div></div>
+        <div class="e"><div class="w"><div class="q">Classes nested hi-> low: e -> w -> q</div></div></div>
+        <a href="hello.css" target="_blank">Click for css page (opens in a new tab)</a>
+
+
+        <div id="container"> <div id="header"></div> <div id="main"> <h2>Direct Child versus Descendent </h2> </div> </div>
+        <h2 class="h2p">Story</h2> <p>First paragraph</p> <p>Second paragraph</p> <p>Third paragraph</p>
+        <style type="text/css"> .redbg { background-color: red; } .greenbg { background-color: green; } .yellowbg { background-color: yellow; } .bluebg { background-color: blue; } .sq200 { width: 200px; height: 200px; } </style> 
+        <div><div class="redbg">g</div><div class="yellowbg"> </div> </div> <div> <div class="greenbg"></div><div class="bluebg"></div> </div> 
+        <br>
+        <div> <div class="sq200 redbg"></div><div class="sq200 yellowbg"></div> </div> <div> <div class="sq200 greenbg"></div><div class="sq200 bluebg"></div> </div>
+        <div id="redsquare">WhatWWWAT</div> 
+        <div id="redsquare2">WhatWWWAT</div>
+        <br> <br> <br> <br>
+        <body> <div id="container2"> <div id="redsquare"> </div> </div> </body>
+        </body>
+    </html>
+
+    <!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.format {
+                /* color: blue; */
+                text-align:right
+            }
+            div.format { 
+                background-color:yellow; color:red; border-style:solid; border-color:red; padding:10px;}
+            h2 {
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+	<body>
+		<h1>Pacific Leaping Blenny</h1>
+		<div class="format">
+  			<h2>A Fish That Crawls</h2>
+  			<p>The Pacific Leaping Blenny <span style="border:1px solid">Alticus arnoldorum</span> usually measures a few inches long, but it is a quite unique fish because of its extraordinary capacity to stay out of the water and actually crawl over wet surfaces. In spite of its need for moisture, the fish has essentially forsaken the sea and spends its entire life on land.</p>
+   		</div><br />
+        <div class="format">
+            <p>The leaping blenny may make you think twice before saying you feel like a fish out of water.</p>
+		</div> 
+		<p class="format">Is the leaping blenny the opposite of a whale?</p>
+	</body>
+</html>

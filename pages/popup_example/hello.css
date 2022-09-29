@@ -1,0 +1,63 @@
+#hello {
+    color:red;
+}
+
+/*  Margin
+    Border
+    Padding
+    Content
+    Padding
+    Border
+    Margin */
+
+    /*  form
+        label: for= x
+        input: type, id=x, name =x 
+        /form */
+
+.glass.color.reddit{ /* used for containers nested within another */
+    color:grey;
+}
+
+.glass .color .reddit{ /* spaces used for containers defined by multiple classes (also called descendants) */
+    color:rgb(158, 137, 68); /* mud yellow */
+}
+
+.q .w .e{
+    color: hotpink;
+}
+
+.e .w .q{
+    color: rgb(109, 47, 255); /* blue */
+}
+
+.w.q {
+    color: violet;
+}
+
+#main > h2 { color:grey; } /* '>' means the direct child */
+
+/* oops */
+#container > h2 { color:rosybrown; } /* h2 is not a direct child - it's a grandchild of #container */
+
+h2.h2p + p { /* '+' means the adjacent specifiers, ie: p adjacent to a heading */
+    margin-top:0px;
+    display:inline;
+    border-bottom: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: brown;
+    border-style: solid;
+}
+
+h2 p{
+    float: right;
+}
+
+#redsquare { width:100px; height:100px; background-color:red; }
+
+#redsquare2 { position:relative; width:100px; height:100px; background-color:red; left:10px; top:50px; }
+
+#container2 { width:700px; margin:50px; background-color:teal; height:500px; }
+
